@@ -43,8 +43,8 @@ class FlutterNfcReaderPlugin(registrar: Registrar) : MethodCallHandler, EventCha
             NfcAdapter.FLAG_READER_NFC_B or
             NfcAdapter.FLAG_READER_NFC_BARCODE or
             NfcAdapter.FLAG_READER_NFC_F or
-            NfcAdapter.FLAG_READER_NFC_V
-
+            NfcAdapter.FLAG_READER_NFC_V            
+            NfcAdapter.FLAG_READER_NFC_NO_PLATFORM_SOUNDS
     companion object {
         @JvmStatic
         fun registerWith(registrar: Registrar) {
